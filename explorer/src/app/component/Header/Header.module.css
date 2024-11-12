@@ -1,0 +1,22 @@
+.header{
+    padding: 1rem 2rem;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header li{
+    list-style: none;
+}
+.headerLink{
+    transition: background-color 0.3s ease-in-out;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.headerLink:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+}

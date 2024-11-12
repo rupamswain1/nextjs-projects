@@ -24,6 +24,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.font-lg{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
