@@ -1,5 +1,14 @@
+.header{
+    padding:1rem;
+}
 .imageContainer{
     position: relative;
-    width:19rem;
+    width:22vw;
     height:19rem;
+}
+.newsContainer{
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    padding: 1rem;
 }

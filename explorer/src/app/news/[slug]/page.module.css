@@ -1,0 +1,9 @@
+.newsContainer{
+    padding: 1rem;
+
+}
+.imageContainer{
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+}
