@@ -40,6 +40,14 @@ a {
   text-decoration: none;
 }
 
+.newsContainer{
+  display: flex;
+  margin: 0px 0.1rem;
+}
+.newsContainer a{
+  margin: 0px 0.5rem
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

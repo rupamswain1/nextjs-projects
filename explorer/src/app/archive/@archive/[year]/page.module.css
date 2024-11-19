@@ -1,0 +1,7 @@
+.newsContainer{
+    display: flex;
+    margin: 0px 0.1rem;
+}
+.newsContainer a{
+    margin: 0px 0.5rem
+}
