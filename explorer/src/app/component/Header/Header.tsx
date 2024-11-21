@@ -1,14 +1,28 @@
-import Link from "next/link";
+
 import styles from './Header.module.css'
+import NavLink from "../NavLink/NavLink";
 const Header: React.FunctionComponent = () => {
   return (
     <header className={styles.header}>
       <ul>
         <li>
-          <Link href="/" className={styles.headerLink+" font-lg"}>Home</Link>
+          <NavLink
+            href="/"
+            name="Home"
+          />
+
         </li>
         <li>
-          <Link href="/news" className={styles.headerLink+" font-lg"}>News</Link>
+        <NavLink
+            href="/news"
+            name="News"
+          />
+        </li>
+        <li>
+        <NavLink
+            href="/archive"
+            name="Archive"
+          />
         </li>
       </ul>
     </header>

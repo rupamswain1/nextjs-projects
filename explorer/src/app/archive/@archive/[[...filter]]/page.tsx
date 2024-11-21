@@ -8,6 +8,7 @@ import {
 import styles from "./page.module.css";
 import Link from "next/link";
 import { Inews } from "@/app/lib/interfaces/news";
+
 const YearNews = ({ params }: { params: { filter: string[] } }) => {
   const filters = params.filter;
   const year = filters?.[0];
@@ -22,6 +23,9 @@ const YearNews = ({ params }: { params: { filter: string[] } }) => {
   } else if (month) {
     headerValues = getMonthsForYear(year);
     news = getNewsByMonths(year, month);
+  }
+  if((year || month) && !news.length){
+    throw new Error("No News Available, please select a filter")
   }
 
   return (
@@ -39,9 +43,9 @@ const YearNews = ({ params }: { params: { filter: string[] } }) => {
           ))}
         </ul>
       </header>
-      {((!year && !month) || !news.length) && (
+      {/* {((!year && !month) || !news.length) && (
         <p>No News Available, please select a filter</p>
-      )}
+      )} */}
       <div className={styles.newsContainer}>
         <NewsItems news={news} />
       </div>

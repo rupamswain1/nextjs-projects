@@ -10,13 +10,3 @@
 .header li{
     list-style: none;
 }
-.headerLink{
-    transition: background-color 0.3s ease-in-out;
-    padding: 0.5rem;
-    border-radius: 5px;
-}
-.headerLink:hover{
-    text-decoration: underline;
-    background-color: white;
-    color: black;
-}
