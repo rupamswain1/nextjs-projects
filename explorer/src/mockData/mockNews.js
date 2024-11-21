@@ -14,7 +14,7 @@ export const mockNews =[
           "slug": "top-blissful-destinations-2024",
           "image": "https://picsum.photos/id/43/200/300",
           "date": "2024-11-01"
-        },
+        }, 
         {
           "id": 3,
           "title": "How to Incorporate Mindfulness into Daily Life",
