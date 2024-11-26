@@ -1,0 +1,28 @@
+.fullImage{
+    width:50vw;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.imageDialog{
+  background-color: #fff;
+  width: 80%;
+  height: 80vh;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow:   
+ 0 2px 5px rgba(0, 0, 0, 0.3);
+ position: relative;
+}

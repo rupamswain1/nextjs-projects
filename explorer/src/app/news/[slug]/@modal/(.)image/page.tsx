@@ -9,11 +9,14 @@ const ImageInterceptor = ({ params }: { params: { slug: string } }) => {
     notFound();
   }
 
-  return<>
-    <h1>Intercepted</h1>
-    <div className={styles.fullImage}>
-      <Image src={news.image} alt={news.title} fill />
-    </div>
-  </>;
+  return (
+    <>
+      <div className={styles.modal}>
+        <div className={styles.imageDialog}>
+          <Image src={news.image} alt={news.title} fill />
+        </div>
+      </div>
+    </>
+  );
 };
 export default ImageInterceptor;
