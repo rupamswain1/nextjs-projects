@@ -2,6 +2,7 @@ import { mockNews } from "@/mockData/mockNews";
 import Image from "next/image";
 import styles from './page.module.css';
 import { notFound } from "next/navigation";
+import Link from "next/link";
 const NewsItem: React.FunctionComponent<{ params: { slug: string } }> = ({
   params,
 }) => {
@@ -17,7 +18,9 @@ const NewsItem: React.FunctionComponent<{ params: { slug: string } }> = ({
       </header>
       <article>
         <div className={styles.imageContainer}>
-          <Image src={news.image} alt={news.title} fill />
+          <Link href={`/news/${params.slug}/image`}>
+            <Image src={news.image} alt={news.title} fill />
+          </Link>
         </div>
         {news.content}
       </article>

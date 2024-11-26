@@ -51,7 +51,7 @@ export const mockNews =[
           "id": 7,
           "title": "The Future of AI in Healthcare",
           "content": "AI continues to revolutionize the healthcare industry. Learn how AI tools are making diagnosis faster and more accurate.",
-          "slug": "future-ai-healthcare",
+          "slug": "future-ai-healthcare-0",
           "image": "https://picsum.photos/id/92/200/300",
           "date": "2023-10-15"
         },
@@ -59,7 +59,7 @@ export const mockNews =[
           "id": 8,
           "title": "Travel Guide: Must-Visit Natural Wonders",
           "content": "From waterfalls to ancient forests, here are some awe-inspiring natural wonders to add to your travel bucket list.",
-          "slug": "natural-wonders-travel-guide",
+          "slug": "natural-wonders-travel-guide-0",
           "image": "https://picsum.photos/id/55/200/300",
           "date": "2023-08-20"
         },
@@ -67,7 +67,7 @@ export const mockNews =[
           "id": 9,
           "title": "Mental Health Apps: Do They Really Help?",
           "content": "Mental health apps are on the rise, but how effective are they? We examine the pros and cons of digital mental health tools.",
-          "slug": "mental-health-apps-help",
+          "slug": "mental-health-apps-help-0",
           "image": "https://picsum.photos/id/99/200/300",
           "date": "2023-09-18"
         },
@@ -75,7 +75,7 @@ export const mockNews =[
           "id": 10,
           "title": "The Future of AI in Healthcare",
           "content": "AI continues to revolutionize the healthcare industry. Learn how AI tools are making diagnosis faster and more accurate.",
-          "slug": "future-ai-healthcare",
+          "slug": "future-ai-healthcare-1",
           "image": "https://picsum.photos/id/01/200/300",
           "date": "2022-10-15"
         },
@@ -83,7 +83,7 @@ export const mockNews =[
           "id": 11,
           "title": "Travel Guide: Must-Visit Natural Wonders",
           "content": "From waterfalls to ancient forests, here are some awe-inspiring natural wonders to add to your travel bucket list.",
-          "slug": "natural-wonders-travel-guide",
+          "slug": "natural-wonders-travel-guide-1",
           "image": "https://picsum.photos/id/59/200/300",
           "date": "2022-08-20"
         },
@@ -91,7 +91,7 @@ export const mockNews =[
           "id": 12,
           "title": "Mental Health Apps: Do They Really Help?",
           "content": "Mental health apps are on the rise, but how effective are they? We examine the pros and cons of digital mental health tools.",
-          "slug": "mental-health-apps-help",
+          "slug": "mental-health-apps-help-1",
           "image": "https://picsum.photos/id/109/200/300",
           "date": "2021-09-18"
         }
