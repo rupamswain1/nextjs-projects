@@ -1,7 +1,7 @@
 
 import styles from "./page.module.css";
-import { mockNews } from "../../mockData/mockNews";
-import NewsItems from "../component/NewsItems/NewsItems";
+import { mockNews } from "../../../mockData/mockNews";
+import NewsItems from "../../component/NewsItems/NewsItems";
 const News = () => {
   return (
     <div>
